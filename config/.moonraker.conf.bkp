@@ -1,0 +1,119 @@
+[server]
+host = 0.0.0.0
+port = 7125
+max_upload_size = 1024
+klippy_uds_address = ~/printer_data/comms/klippy.sock
+
+[announcements]
+subscriptions = 
+	RatOS
+	mainsail
+
+[file_manager]
+enable_object_processing = False
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager client RatOS]
+type = git_repo
+path = ~/printer_data/config/RatOS/
+primary_branch = v2.x
+origin = https://github.com/Rat-OS/RatOS-configuration.git
+install_script = scripts/ratos-install.sh
+managed_services = 
+	klipper
+	moonraker
+
+[update_manager client RatOSTheme]
+type = git_repo
+path = ~/printer_data/config/.theme
+origin = https://github.com/Rat-OS/RatOS-theme.git
+is_system_service = False
+primary_branch = v2.x
+
+[update_manager ratos-configurator]
+type = git_repo
+path = ~/ratos-configurator
+primary_branch = v2.x-deployment
+origin = https://github.com/Rat-OS/RatOS-configurator.git
+install_script = scripts/setup.sh
+is_system_service = True
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+install_script = tools/pkglist.sh
+managed_services = crowsnest
+
+[update_manager timelapse]
+type = git_repo
+primary_branch = main
+path = ~/moonraker-timelapse
+origin = https://github.com/mainsail-crew/moonraker-timelapse.git
+managed_services = klipper moonraker
+
+[update_manager LinearMovementAnalysis]
+type = git_repo
+path = ~/klipper_linear_movement_analysis
+primary_branch = main
+origin = https://github.com/worksasintended/klipper_linear_movement_analysis.git
+install_script = install.sh
+env = ~/klippy-env/bin/python
+requirements = requirements.txt
+is_system_service = False
+managed_services = 
+	klipper
+
+[update_manager KlipperScreen]
+type = git_repo
+path = ~/KlipperScreen
+origin = https://github.com/jordanruthe/KlipperScreen.git
+env = ~/.KlipperScreen-env/bin/python
+requirements = scripts/KlipperScreen-requirements.txt
+install_script = scripts/KlipperScreen-install.sh
+
+[update_manager beacon]
+type = git_repo
+channel = dev
+path = ~/beacon
+origin = https://github.com/beacon3d/beacon_klipper.git
+env = ~/klippy-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+is_system_service = False
+managed_services = klipper
+info_tags = 
+	desc=Beacon Surface Scanner
+
+[history]
+
+[octoprint_compat]
+
+[authorization]
+cors_domains = 
+	http://app.fluidd.xyz
+	https://app.fluidd.xyz
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
+trusted_clients = 
+	127.0.0.1
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+	FD00::/8
+
