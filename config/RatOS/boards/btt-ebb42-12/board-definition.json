@@ -3,7 +3,7 @@
 	"isToolboard": true,
 	"name": "EBB42 v1.2",
 	"manufacturer": "BIGTREETECH",
-	"serialPath": "/dev/btt-ebb42-12",
+	"serialPath": "/dev/btt-ebb42-12-T0",
 	"firmwareBinaryName": "firmware-btt-ebb42-12.bin",
 	"compileScript": "compile.sh",
 	"flashScript": "flash.sh",
