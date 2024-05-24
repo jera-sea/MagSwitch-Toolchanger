@@ -1,9 +1,9 @@
 {
 	"$schema": "../board-definition.schema.json",
 	"isToolboard": true,
-	"name": "EBB42 v1.2 TOOL 1",
+	"name": "EBB42 v1.2 TOOL 0",
 	"manufacturer": "BIGTREETECH",
-	"serialPath": "/dev/btt-ebb42-12b",
+	"serialPath": "/dev/btt-ebb42-12-t0",
 	"firmwareBinaryName": "firmware-btt-ebb42-12.bin",
 	"compileScript": "compile.sh",
 	"flashScript": "flash.sh",
