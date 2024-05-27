@@ -1,0 +1,210 @@
+12:31:11 - DEBUG: Reseting KTCC statistics.
+12:31:11 KlipperToolChangerCode Ready
+12:31:12 - - TRACE: TOOL_UNLOCK running. 
+12:31:13 Warning: Error booting up KTCC: Error evaluating 'toollock:tool_unlock_gcode': jinja2.exceptions.UndefinedError: 'myself' is undefined
+         
+12:37:25 - - TRACE: TOOL_LOCK running. 
+12:39:45 KTCC Shutdown
+12:39:50 - DEBUG: Reseting KTCC statistics.
+12:39:50 KlipperToolChangerCode Ready
+12:39:52 - - TRACE: TOOL_UNLOCK running. 
+12:39:52 Warning: Error booting up KTCC: Error evaluating 'toollock:tool_unlock_gcode': jinja2.exceptions.UndefinedError: 'params' is undefined
+         
+12:41:35 KTCC Shutdown
+12:41:46 - DEBUG: Reseting KTCC statistics.
+12:41:46 KlipperToolChangerCode Ready
+12:41:47 - - TRACE: TOOL_UNLOCK running. 
+12:41:47 Warning: Error booting up KTCC: Error evaluating 'toollock:tool_unlock_gcode': jinja2.exceptions.UndefinedError: 'myself' is undefined
+         
+12:45:12 KTCC Shutdown
+12:45:17 - DEBUG: Reseting KTCC statistics.
+12:45:17 KlipperToolChangerCode Ready
+12:45:19 - - TRACE: TOOL_UNLOCK running. 
+12:45:19 Warning: Error booting up KTCC: Error evaluating 'toollock:tool_unlock_gcode': jinja2.exceptions.UndefinedError: 'myself' is undefined
+         
+12:47:37 - DEBUG: Reseting KTCC statistics.
+12:47:37 KlipperToolChangerCode Ready
+12:47:39 - - TRACE: TOOL_UNLOCK running. 
+12:47:39 Warning: Error booting up KTCC: Error evaluating 'toollock:tool_unlock_gcode': jinja2.exceptions.UndefinedError: 'myself' is undefined
+         
+12:49:46 KTCC Shutdown
+12:49:51 - DEBUG: Reseting KTCC statistics.
+12:49:51 KlipperToolChangerCode Ready
+12:49:53 - - TRACE: TOOL_UNLOCK running. 
+12:49:53 - - TRACE: ToolLock Unlocked.
+12:49:53 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+12:49:53 ToolLock initialized unlocked
+12:50:01 - - TRACE: Saving state in logs.
+12:50:09 - - TRACE: TOOL_LOCK running. 
+12:50:09 - - TRACE: Tool Locked
+12:50:09 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toollocks and count: 1
+12:50:11 - - TRACE: Saving state in logs.
+12:50:14 - - TRACE: TOOL_UNLOCK running. 
+12:50:14 - - TRACE: ToolLock Unlocked.
+12:50:14 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+12:50:21 - - TRACE: Saving state in logs.
+12:50:40 - - TRACE: KTCC T0 Selected.
+12:50:40 - - TRACE: Current Tool is T-1.
+12:50:40 - - TRACE: This tool is_virtual is False.
+12:50:40 - - TRACE: increase_tool_statistics: Running for Tool: 0. Provided to record tool stats while key: toolmounts_started and count: 1
+12:50:40 - - TRACE: set_heater: T0 heater state now ACTIVE.
+12:50:40 - - TRACE: <reactor.ReactorTimer object at 0xf60ea1f0>.set_timer: T0 , temp_type:Standby, duration:0.
+12:50:40 - - TRACE: <reactor.ReactorTimer object at 0xf60ea1c0>.set_timer: T0 , temp_type:OFF, duration:0.
+12:50:40 - - TRACE: track_standby_heater_end: Running for Tool: 0.
+12:50:40 - - TRACE: track_active_heater_start: Running for Tool: 0.
+12:50:40 - - TRACE: _set_tool_statistics:Running for Tool: 0 provided to record tool stats while key: tracked_start_time_active and value: 1716551440.2877967
+12:50:40 - - TRACE: cmd_SelectTool: T0 - Not Virtual - Pickup
+12:50:40 - - TRACE: track_mount_start: Running for Tool: 0.
+12:50:40 - - TRACE: _set_tool_statistics:Running for Tool: 0 provided to record tool stats while key: tracked_mount_start_time and value: 1716551440.2881534
+12:50:41 - - TRACE: Saving state in logs.
+12:54:42 - - TRACE: KTCC T1 Selected.
+12:54:42 - - TRACE: Current Tool is T-1.
+12:54:42 - - TRACE: This tool is_virtual is False.
+12:54:42 - - TRACE: increase_tool_statistics: Running for Tool: 1. Provided to record tool stats while key: toolmounts_started and count: 1
+12:54:42 - - TRACE: set_heater: T1 heater state now ACTIVE.
+12:54:42 - - TRACE: <reactor.ReactorTimer object at 0xf60ea160>.set_timer: T1 , temp_type:Standby, duration:0.
+12:54:42 - - TRACE: <reactor.ReactorTimer object at 0xf60ea478>.set_timer: T1 , temp_type:OFF, duration:0.
+12:54:42 - - TRACE: track_standby_heater_end: Running for Tool: 1.
+12:54:42 - - TRACE: track_active_heater_start: Running for Tool: 1.
+12:54:42 - - TRACE: _set_tool_statistics:Running for Tool: 1 provided to record tool stats while key: tracked_start_time_active and value: 1716551682.9618976
+12:54:42 - - TRACE: cmd_SelectTool: T1 - Not Virtual - Pickup
+12:54:42 - - TRACE: track_mount_start: Running for Tool: 1.
+12:54:42 - - TRACE: _set_tool_statistics:Running for Tool: 1 provided to record tool stats while key: tracked_mount_start_time and value: 1716551682.962244
+12:54:51 - - TRACE: Saving state in logs.
+12:54:51 - DEBUG: _save_changes_timer_event:Exception: Internal error on command:"KTCC_T1"
+         Once the underlying issue is corrected, use the
+         "FIRMWARE_RESTART" command to reset the firmware, reload the
+         config, and restart the host software.
+         Printer is shutdown
+         
+01:23:29 KlipperToolChangerCode Ready
+01:23:30 - - TRACE: TOOL_UNLOCK running. 
+01:23:30 - - TRACE: ToolLock Unlocked.
+01:23:30 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+01:23:30 ToolLock initialized unlocked
+01:23:39 - - TRACE: Saving state in logs.
+01:26:42 KTCC Shutdown
+01:51:51 KTCC Shutdown
+01:52:57 KTCC Shutdown
+01:55:11 KTCC Shutdown
+02:00:11 KTCC Shutdown
+02:00:54 KTCC Shutdown
+02:01:19 KlipperToolChangerCode Ready
+02:01:20 - - TRACE: TOOL_UNLOCK running. 
+02:01:20 - - TRACE: ToolLock Unlocked.
+02:01:20 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:01:20 ToolLock initialized unlocked
+02:01:29 - - TRACE: Saving state in logs.
+02:03:30 KTCC Shutdown
+02:03:59 KTCC Shutdown
+02:04:09 KlipperToolChangerCode Ready
+02:04:11 - - TRACE: TOOL_UNLOCK running. 
+02:04:11 - - TRACE: ToolLock Unlocked.
+02:04:11 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:04:11 ToolLock initialized unlocked
+02:04:19 - - TRACE: Saving state in logs.
+02:04:27 KTCC Shutdown
+02:04:42 KlipperToolChangerCode Ready
+02:04:43 - - TRACE: TOOL_UNLOCK running. 
+02:04:47 - - TRACE: ToolLock Unlocked.
+02:04:47 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:04:47 ToolLock initialized unlocked
+02:04:52 - - TRACE: Saving state in logs.
+02:04:53 KTCC Shutdown
+02:04:58 KlipperToolChangerCode Ready
+02:05:00 - - TRACE: TOOL_UNLOCK running. 
+02:05:00 - - TRACE: ToolLock Unlocked.
+02:05:00 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:05:00 ToolLock initialized unlocked
+02:05:08 - - TRACE: Saving state in logs.
+02:05:25 KTCC Shutdown
+02:06:02 KTCC Shutdown
+02:06:13 KlipperToolChangerCode Ready
+02:06:14 - - TRACE: TOOL_UNLOCK running. 
+02:06:24 - - TRACE: ToolLock Unlocked.
+02:06:24 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:06:24 ToolLock initialized unlocked
+02:06:24 - - TRACE: Saving state in logs.
+02:06:30 KTCC Shutdown
+02:06:35 KlipperToolChangerCode Ready
+02:06:37 - - TRACE: TOOL_UNLOCK running. 
+02:06:50 - - TRACE: ToolLock Unlocked.
+02:06:50 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:06:50 ToolLock initialized unlocked
+02:06:50 - - TRACE: Saving state in logs.
+02:06:52 KTCC Shutdown
+02:07:13 KTCC Shutdown
+02:07:40 KlipperToolChangerCode Ready
+02:07:42 - - TRACE: TOOL_UNLOCK running. 
+02:07:45 - - TRACE: ToolLock Unlocked.
+02:07:45 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:07:45 ToolLock initialized unlocked
+02:07:50 - - TRACE: Saving state in logs.
+02:08:39 KTCC Shutdown
+02:09:39 KlipperToolChangerCode Ready
+02:09:40 - - TRACE: TOOL_UNLOCK running. 
+02:09:40 - - TRACE: ToolLock Unlocked.
+02:09:40 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:09:40 ToolLock initialized unlocked
+02:09:49 - - TRACE: Saving state in logs.
+02:10:21 KTCC Shutdown
+02:10:31 KlipperToolChangerCode Ready
+02:10:33 - - TRACE: TOOL_UNLOCK running. 
+02:10:38 - - TRACE: ToolLock Unlocked.
+02:10:38 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:10:38 ToolLock initialized unlocked
+02:10:41 - - TRACE: Saving state in logs.
+02:10:54 KTCC Shutdown
+02:10:59 KlipperToolChangerCode Ready
+02:11:01 - - TRACE: TOOL_UNLOCK running. 
+02:11:06 - - TRACE: ToolLock Unlocked.
+02:11:06 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:11:06 ToolLock initialized unlocked
+02:11:09 - - TRACE: Saving state in logs.
+02:15:52 - - TRACE: KTCC T0 Selected.
+02:15:52 - - TRACE: Current Tool is T-1.
+02:15:52 - - TRACE: This tool is_virtual is False.
+02:15:52 - - TRACE: increase_tool_statistics: Running for Tool: 0. Provided to record tool stats while key: toolmounts_started and count: 1
+02:15:52 - - TRACE: set_heater: T0 heater state now ACTIVE.
+02:15:52 - - TRACE: <reactor.ReactorTimer object at 0xf5e24c70>.set_timer: T0 , temp_type:Standby, duration:0.
+02:15:52 - - TRACE: <reactor.ReactorTimer object at 0xf5ed36e8>.set_timer: T0 , temp_type:OFF, duration:0.
+02:15:52 - - TRACE: track_standby_heater_end: Running for Tool: 0.
+02:15:52 - - TRACE: track_active_heater_start: Running for Tool: 0.
+02:15:52 - - TRACE: _set_tool_statistics:Running for Tool: 0 provided to record tool stats while key: tracked_start_time_active and value: 1716556552.0649402
+02:15:52 - - TRACE: cmd_SelectTool: T0 - Not Virtual - Pickup
+02:15:52 - - TRACE: track_mount_start: Running for Tool: 0.
+02:15:52 - - TRACE: _set_tool_statistics:Running for Tool: 0 provided to record tool stats while key: tracked_mount_start_time and value: 1716556552.0661645
+02:15:59 - - TRACE: Saving state in logs.
+02:15:59 - DEBUG: _save_changes_timer_event:Exception: Internal error on command:"KTCC_T0"
+         Once the underlying issue is corrected, use the
+         "FIRMWARE_RESTART" command to reset the firmware, reload the
+         config, and restart the host software.
+         Printer is shutdown
+         
+02:24:19 KTCC Shutdown
+02:26:53 KlipperToolChangerCode Ready
+02:26:54 - - TRACE: TOOL_UNLOCK running. 
+02:26:54 - - TRACE: ToolLock Unlocked.
+02:26:54 - - TRACE: increase_statistics: Running. Provided to record tool stats while key: total_toolunlocks and count: 1
+02:26:54 ToolLock initialized unlocked
+02:27:03 - - TRACE: Saving state in logs.
+02:28:54 - - TRACE: KTCC T0 Selected.
+02:28:54 - - TRACE: Current Tool is T-1.
+02:28:54 - - TRACE: This tool is_virtual is False.
+02:28:54 - - TRACE: increase_tool_statistics: Running for Tool: 0. Provided to record tool stats while key: toolmounts_started and count: 1
+02:28:54 - - TRACE: set_heater: T0 heater state now ACTIVE.
+02:28:54 - - TRACE: <reactor.ReactorTimer object at 0xf5e7b0e8>.set_timer: T0 , temp_type:Standby, duration:0.
+02:28:54 - - TRACE: <reactor.ReactorTimer object at 0xf5e7bfe8>.set_timer: T0 , temp_type:OFF, duration:0.
+02:28:54 - - TRACE: track_standby_heater_end: Running for Tool: 0.
+02:28:54 - - TRACE: track_active_heater_start: Running for Tool: 0.
+02:28:54 - - TRACE: _set_tool_statistics:Running for Tool: 0 provided to record tool stats while key: tracked_start_time_active and value: 1716557334.7306461
+02:28:54 - - TRACE: cmd_SelectTool: T0 - Not Virtual - Pickup
+02:28:54 - - TRACE: track_mount_start: Running for Tool: 0.
+02:28:54 - - TRACE: _set_tool_statistics:Running for Tool: 0 provided to record tool stats while key: tracked_mount_start_time and value: 1716557334.7319422
+02:28:57 - - TRACE: Saving state in logs.
+02:28:57 - DEBUG: _save_changes_timer_event:Exception: Internal error on command:"KTCC_T0"
+         Once the underlying issue is corrected, use the
+         "FIRMWARE_RESTART" command to reset the firmware, reload the
+         config, and restart the host software.
+         Printer is shutdown
+         
