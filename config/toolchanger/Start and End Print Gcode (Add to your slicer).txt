@@ -1,0 +1,12 @@
+Start G-Code:
+
+START_PRINT EXTRUDER_TEMP={first_layer_temperature[0]} EXTRUDER_TEMP1={first_layer_temperature[1]} BED_TEMP=[first_layer_bed_temperature] X0={first_layer_print_min[0]} Y0={first_layer_print_min[1]} X1={first_layer_print_max[0]} Y1={first_layer_print_max[1]}
+
+End G-Code:
+
+T0
+END_PRINT
+
+;Ensure that the custom G-Code in the Filament Settings does not contain z_offset corrections.
+;personally, I like to keep a pressure advance override in the filament settings because pressure advance is filament dependant. So I add the following line to the Start G-Code in the filament tab and change the pressure advance value per material
+SET_PRESSURE_ADVANCE ADVANCE=0.035
